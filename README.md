@@ -8,7 +8,7 @@
   
  ## Software Components
   * Arduino IDE for writing and uploading code to the MCU. The code is available [here](Smart_Mobile_Charger/Smart_Mobile_Charger.ino)
-  * Smartphone app for controlling the charger and setting charging thresholds. The .apk file is available [here](Application Files/Smart_Mobile_Charger.apk) and the raw .aia code file which was designed with [MIT App Inventor](https://appinventor.mit.edu/) is available [here](Application Files/Smart_Mobile_Charger.aia).
+  * Smartphone app for controlling the charger and setting charging thresholds. The .apk file is available [here](Application%20Files/Smart_Mobile_Charger.apk) and the raw .aia code file which was designed with [MIT App Inventor](https://appinventor.mit.edu/) is available [here](Application%20Files/Smart_Mobile_Charger.aia).
   
 ## How it works
    The charger is connected to a power source through the relay module and a mobile device is connected to the charger using a USB cable. The smartphone app monitors the battery level of the mobile device and compares it to a threshold set by the user.
