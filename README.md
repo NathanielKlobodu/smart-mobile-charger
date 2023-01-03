@@ -4,12 +4,16 @@
 ## Hardware Components
   * ESP8266 12F WiFi microcontroller
   * Relay Module
-  * AC-DC converter
+  * Phone power adapter
   
  ## Software Components
   * Arduino IDE for writing and uploading code to the microcontroller. The code is available [here](Smart_Mobile_Charger/Smart_Mobile_Charger.ino)
   * Smartphone app for controlling the charger and setting charging thresholds. The .apk file is available [here](Application%20Files/Smart_Mobile_Charger.apk) and the raw .aia code file which was designed with [MIT App Inventor](https://appinventor.mit.edu/) is available [here](Application%20Files/Smart_Mobile_Charger.aia).
-  
+
+## Schematics and Circuit Board
+<img src="images/schematic.png" alt = "schematic" width="800">
+<img src="images/circuit_board.png" alt = "circuit board" width="426" height="198">
+
 ## How it works
    The charger is connected to a power source through the relay module and a mobile device is connected to the charger using a USB cable. The smartphone app monitors the battery level of the mobile device and compares it to a threshold set by the user.
    
